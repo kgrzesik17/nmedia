@@ -1,12 +1,14 @@
+:root {
+    --bs-body-font-family: 'Outfit', sans-serif;
+}
+
 html {
     overflow-x: hidden;
 }
 
 .content-wrapper {
-    position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
     overflow: hidden;
 }
-
