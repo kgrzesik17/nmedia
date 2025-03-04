@@ -12,3 +12,24 @@ html {
     left: 0;
     overflow: hidden;
 }
+
+#intro {
+    background-image: url(../assets/smartphone-and-laptop-on-black-background-with-woo-2024-11-19-08-34-29-utc.jpg);
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: overlay;
+}
+
+#main {
+    background-color: #1E1E1E;
+}
+
+#main-logo {
+    max-width: 30%;
+    height: auto;
+}
+
+#mateusz-face {
+    max-width: 75%;
+    height: auto;
+    border-radius: 61px;
+}
