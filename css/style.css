@@ -16,8 +16,16 @@ html {
 #intro {
     background-image: url(../assets/smartphone-and-laptop-on-black-background-with-woo-2024-11-19-08-34-29-utc.jpg);
     background-color: rgba(0, 0, 0, 0.75);
+    background-size: 100%;
     background-blend-mode: overlay;
+    background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 800px) {
+    #intro {
+        background-size: 1000%;
+    }
+  }
 
 #main {
     background-color: #1E1E1E;
@@ -29,7 +37,7 @@ html {
 }
 
 #mateusz-face {
-    max-width: 63%;
+    max-width: 55%;
     height: auto;
     border-radius: 61px;
 }
@@ -45,4 +53,42 @@ html {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.zoom {
+    transition: .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.type {
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#FFFFFF 5px,#0000 0) 10px 0,
+    linear-gradient(#ffffff 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n)*.02s) steps(var(--n)) forwards;
+}
+@keyframes t{
+  from {background-size:0 200%}
+}
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}
+
+.offer-icon {
+    max-width: 15%;
+    height: auto;
+    border-radius: 61px;
+}
+
+#intro {
+    height: 100vh;
 }
