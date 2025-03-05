@@ -113,6 +113,17 @@ html {
     height: 100%;
 }
 
+#interested-logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+#footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+  
+
 @media only screen and (max-width: 800px) {
     #intro {
         background-size: 400%;
@@ -137,4 +148,8 @@ html {
         margin-bottom: 15%;
     }
     
+    #footer-container {
+        display: block;
+    }
+      
   }
