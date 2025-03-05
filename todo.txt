@@ -1,2 +1,2 @@
 reset scrolla przy zaladowaniu strony
-mobilne: pomaranczowe logo padding
+offer przycisk ustawic na dole
