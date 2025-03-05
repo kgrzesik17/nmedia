@@ -6,11 +6,15 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    background-color: #1E1E1E;
+}
+
 .content-wrapper {
+    position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
-    overflow: hidden;
 }
 
 #intro {
@@ -122,7 +126,11 @@ html {
     display: grid;
     grid-template-columns: auto auto;
 }
-  
+
+#offer-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
 @media only screen and (max-width: 800px) {
     #intro {
@@ -144,8 +152,8 @@ html {
 
     .doing-card {
         border-radius: 36px;
-        height: 60%;
-        margin-bottom: 15%;
+        height: 80%;
+        margin-bottom: 10%;
     }
     
     #footer-container {
