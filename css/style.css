@@ -59,24 +59,31 @@ html {
 }
 
 .type {
-  color:#0000;
-  background:
-    linear-gradient(-90deg,#FFFFFF 5px,#0000 0) 10px 0,
-    linear-gradient(#ffffff 0 0) 0 0;
-  background-size:calc(var(--n)*1ch) 200%;
-  -webkit-background-clip:padding-box,text;
-  background-clip:padding-box,text;
-  background-repeat:no-repeat;
-  animation: 
-    b .7s infinite steps(1),   
-    t calc(var(--n)*.02s) steps(var(--n)) forwards;
-}
-@keyframes t{
-  from {background-size:0 200%}
-}
-@keyframes b{
-  50% {background-position:0 -100%,0 0}
-}
+    color: #0000;
+    background:
+      linear-gradient(-90deg, #FFFFFF 5px, #0000 0) 10px 0,
+      linear-gradient(#ffffff 0 0) 0 0;
+    background-size: calc(var(--n) * 1ch) 200%;
+    -webkit-background-clip: padding-box, text;
+    background-clip: padding-box, text;
+    background-repeat: no-repeat;
+    animation: none; /* Initially disable animation */
+  }
+  
+  .type.animated {
+    animation:
+      b .7s infinite steps(1),
+      t calc(var(--n) * .02s) steps(var(--n)) forwards;
+  }
+  
+  @keyframes t {
+    from { background-size: 0 200% }
+  }
+  
+  @keyframes b {
+    50% { background-position: 0 -100%, 0 0 }
+  }
+  
 
 .offer-icon {
     max-width: 15%;
@@ -105,6 +112,14 @@ html {
     #main-logo {
         max-width: 60%;
         height: auto;
+    }
+
+    #navbar-logo { 
+        margin-left: 5vw; /*ustalic wartosc*/
+    }
+
+    #navbar-chevron {
+        padding-right: 5vw;
     }
 
   }
