@@ -83,13 +83,6 @@ html {
   @keyframes b {
     50% { background-position: 0 -100%, 0 0 }
   }
-  
-
-.offer-icon {
-    max-width: 15%;
-    height: auto;
-    border-radius: 61px;
-}
 
 #intro {
     height: 100vh;
@@ -102,6 +95,22 @@ html {
 
 #text2{
     padding-top: 25vh;
+}
+
+#offer-icons {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-icon {
+    max-width: 100px;
+}
+
+.doing-card {
+    border-radius: 36px;
+    height: 100%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -122,4 +131,10 @@ html {
         padding-right: 5vw;
     }
 
+    .doing-card {
+        border-radius: 36px;
+        height: 60%;
+        margin-bottom: 15%;
+    }
+    
   }
