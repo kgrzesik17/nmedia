@@ -30,4 +30,18 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el => observer.observe(el)));
 
+document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animation = 
+            "b .7s infinite steps(1), t calc(var(--n)*.02s) steps(var(--n)) forwards";
+          observer.unobserve(entry.target); // Stop observing after starting animation
+        }
+      });
+    }, { threshold: 0.5 }); // Adjust visibility threshold as needed
+  
+    document.querySelectorAll(".type").forEach(el => observer.observe(el));
+  });
+
 smooth()

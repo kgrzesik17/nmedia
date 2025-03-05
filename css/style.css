@@ -19,13 +19,8 @@ html {
     background-size: 100%;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
+    align-content: center;
 }
-
-@media only screen and (max-width: 800px) {
-    #intro {
-        background-size: 1000%;
-    }
-  }
 
 #main {
     background-color: #1E1E1E;
@@ -92,3 +87,24 @@ html {
 #intro {
     height: 100vh;
 }
+
+    
+#text1 {
+    padding-bottom: 25vh;
+}
+
+#text2{
+    padding-top: 25vh;
+}
+
+@media only screen and (max-width: 800px) {
+    #intro {
+        background-size: 400%;
+    }
+
+    #main-logo {
+        max-width: 60%;
+        height: auto;
+    }
+
+  }
