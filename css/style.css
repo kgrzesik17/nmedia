@@ -131,4 +131,10 @@ html {
         padding-right: 5vw;
     }
 
+    .doing-card {
+        border-radius: 36px;
+        height: 60%;
+        margin-bottom: 15%;
+    }
+    
   }
