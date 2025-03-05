@@ -132,9 +132,17 @@ body {
     grid-template-columns: auto auto;
 }
 
+#logo-footer {
+    width: 30vh;
+}
+
 @media only screen and (max-width: 800px) {
     #intro {
         background-size: 400%;
+    }
+
+    #logo-footer {
+        width: 40vh;
     }
 
     #main-logo {
@@ -158,6 +166,10 @@ body {
     
     #footer-container {
         display: block;
+    }
+
+    #left-center {
+        text-align: center;
     }
       
   }
