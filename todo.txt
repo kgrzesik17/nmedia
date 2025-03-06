@@ -4,3 +4,4 @@ czym sie zajmuje - karty ladowane po kolei
 ! responsywnosc kart czym sie zajmuje
 scrolling past footer
 animacja kart po kolei
+przenies do kontentu strony na szewronie
