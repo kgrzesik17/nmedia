@@ -49,4 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  function test() {
+    document.getElementById("aboutme-text").scrollIntoView();
+  }
+
 smooth()
