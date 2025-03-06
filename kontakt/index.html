@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script defer src="../js/bootstrap.bundle.min.js"></script>
+    <script defer src="../js/app.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <navbar class="navbar navbar-expand-md bg-dark fixed-top">
+        <div class="container-xxl">
+            <a href="../" class="navbar-brand md">
+                <img src="../assets/logotype-orange.png" alt="Northloud Media" id="navbar-logo" width="208" height="49">
+            </a>
+            <!-- mobile -->
+            <button class="navbar-toggler" type="button" id="navbar-chevron" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                <span class=""><i class="bi bi-chevron-expand"></i></span>
+            </button>
+
+            <!-- links -->
+             <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-4">
+                        <a href="../" class="nav-link">Strona główna</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="#" class="nav-link">O mnie</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="../portfolio/" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="../kontakt" class="nav-link">Skontaktuj się</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </navbar>
+    <section id="main" class=" bg-dark">
+        <div class="content-wrapper w-100">
+            <div class="mail-info py-5 my-5 container">
+                <div>
+                    <p class="display-1 text-light fw-bold my-5 py-5 px-3">Skontaktuj się ze mną, a na pewno dogadamy się!</p>
+                </div>
+
+                <div class="text-center zoom">
+                    <a href="mailto:kontakt@northloudmedia.com" class="kontakt-link">
+                    <i class="bi bi-envelope text-light display-1"></i>
+                    <p class="text-light fs-1">kontakt@northloudmedia.com</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="find-info py-5 bg-primary">
+                <div class="container text-center">
+                    <div>
+                        <p class="display-2 fw-bold">Znajdziesz mnie na:</p>
+                    </div>
+
+                    <div id="contact-grid">
+                        <div class="contact-grid-element py-1 pt-md-5 zoom">
+                            <a class="kontakt-link text-dark" target="_blank" href="https://www.facebook.com/northloudmedia"><i class="bi bi-facebook display-4"></i><span class="fs-3 px-3">Northloud Media</span></a>
+                        </div>
+                        <div class="contact-grid-element py-1 pt-md-5 zoom">
+                            <a class="kontakt-link text-dark" target="_blank" href="https://www.tiktok.com/@northloudmedia"><i class="bi bi-tiktok display-4"></i><span class="fs-3 px-3">@northloudmedia</span></a>
+                        </div>
+                        <div class="contact-grid-element py-1 pb-md-5 zoom">
+                            <a class="kontakt-link text-dark" target="_blank" href="https://www.instagram.com/northloudmedia/"><i class="bi bi-instagram display-4"></i></i><span class="fs-3 px-3">@northloudmedia</span></a>
+                        </div>
+                        <div class="contact-grid-element py-1 pb-mb-5 zoom">
+                            <a class="kontakt-link text-dark" target="_blank" href="https://discord.gg/M5SQDaVFTq"><i class="bi bi-discord display-4"></i></i><span class="fs-3 px-3">Northloud Family</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <div class="container-lg my-5" id="footer-container">
+                    <div class="text-md-start text-center">
+                        <p class="text-primary mb-0 pb-0"><span class="fw-bold">©2025</span> Northloud Media</p>
+                        <p class="text-primary mt-0 pt-0">Developed by KG Studio (Kacper Grzesik)</p>
+                    </div>
+
+                    <div class="text-md-end text-center">
+                        <a class="kontakt-link text-dark" target="_blank" href="https://www.facebook.com/northloudmedia"><i class="bi bi-facebook text-primary fs-1 px-3"></i></a>
+                        <a class="kontakt-link text-dark" target="_blank" href="https://www.tiktok.com/@northloudmedia"><i class="bi bi-instagram text-primary fs-1 px-3"></i></a>
+                        <a class="kontakt-link text-dark" target="_blank" href="https://www.instagram.com/northloudmedia/"><i class="bi bi-tiktok text-primary fs-1 px-3"></i></a>
+                        <a class="kontakt-link text-dark" target="_blank" href="https://discord.gg/M5SQDaVFTq"><i class="bi bi-discord text-primary fs-1 px-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
