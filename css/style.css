@@ -127,6 +127,10 @@ body {
     grid-template-columns: auto auto;
 }
 
+.kontakt-link {
+    text-decoration: none;
+}
+
 #offer-grid {
     display: grid;
     grid-template-columns: auto auto;
@@ -134,6 +138,11 @@ body {
 
 #logo-footer {
     width: 30vh;
+}
+
+#contact-grid {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -171,5 +180,8 @@ body {
     #left-center {
         text-align: center;
     }
-      
+    
+    #contact-grid {
+        display: block;
+    }
   }
