@@ -208,4 +208,9 @@ body {
     .portfolio-item > a > img {
         max-width: 70vw;
     }
+
+    #contact-grid {
+        width: 100%;
+        margin: auto;
+    }
   }
