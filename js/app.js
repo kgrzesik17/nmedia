@@ -1,7 +1,7 @@
 const body = document.body,
     ScrollWrap = document.getElementsByClassName("content-wrapper")[0],
     height = ScrollWrap.getBoundingClientRect().height - 1,
-    speed = 0.06;
+    speed = 0.06; 
 
 var offset = 0;
 
