@@ -156,6 +156,11 @@ body {
     box-shadow: 0px 0px 5px 1px rgb(87, 87, 87);
 }
 
+.portfolio-item > a > iframe {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 1px rgb(87, 87, 87);
+}
+
 #contact-grid {
     width: 50%;
     margin: auto;
