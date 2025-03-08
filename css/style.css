@@ -161,7 +161,7 @@ body {
     margin: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     #intro {
         background-size: 400%;
     }
