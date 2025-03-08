@@ -1,7 +1,1 @@
-wyrownanie na widoku mobilnym
-kafelki na widoku mobilnym musza miec ta sama wysokosc
 rowne gridy na tablecie
-
-przyciski maja przekierowywac
-zaintereowany dzialajmy -> kontakt 
-co oferuję dzialajmy, pokaż więcej -> portfolio
