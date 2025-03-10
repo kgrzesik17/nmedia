@@ -166,7 +166,20 @@ body {
     margin: auto;
 }
 
+@media only screen and (max-width: 800px) {
+    #footer-container {
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
+    .content-wrapper {
+        position: static;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
     #intro {
         background-size: 400%;
     }
@@ -191,10 +204,6 @@ body {
     .doing-card {
         height: 17em;
         margin-bottom: 10%;
-    }
-    
-    #footer-container {
-        display: block;
     }
 
     #left-center {
